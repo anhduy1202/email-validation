@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="/app/scss/style.css">
+  <title>Frontend Mentor | Base Apparel coming soon page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+<img class="bg hide-for-mobile" src="/images/bg-pattern-desktop.svg" alt="background img">
+<div class="container flex flex-ai-c">
+<img  class="logo" src="/images/logo.svg"alt="Logo">
+
+<div class="img-container">
+<img class="hide-for-desktop" src="/images/hero-mobile.jpg" alt="Mobile main pic">
+<img class="hide-for-mobile" src="/images/hero-desktop.jpg" alt="Desktop main pic">
+</div>
+
+<div class="wrapper flex flex-ai-c ">
+<div class="coming-soon flex flex-ai-c">
+
+  WE'RE <span id="coming"> COMING </span> <span id="soon"> SOON </span>
+</div>
+
+<div class="content">
+
+  Hello fellow shoppers! We're currently building our new fashion store. 
+  Add your email below to stay up-to-date with announcements and our launch deals.
+</div>
+
+<form action="submit" id="form" class="flex flex-jc-fe flex-w">
+
+  <input name ="email_input" id="email" type="text"  placeholder ="Email Address" autocomplete="off">
+  <img class="error-img hide" src="/images/icon-error.svg" alt="Error">
+  <img class="submit-img" src="/images/icon-arrow.svg" alt="submit arrow">
+<input type="submit" value=""> 
+ 
+</form>
+
+<div class="invalid hide">
+  Please provide a valid email
+ 
+  </div>
+</div>
+</div>
+
+
+
+<!--  We're coming soon
+
+  Hello fellow shoppers! We're currently building our new fashion store. 
+  Add your email below to stay up-to-date with announcements and our launch deals.
+
+  Email Address
+  
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </p>
+  </footer> -->
+  <script src="/app/js/script.js"></script>
+</body>
+</html>
